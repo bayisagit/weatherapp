@@ -1,10 +1,8 @@
 import React,{useEffect, useRef, useState} from 'react'
 import searchicon from './searchicon.jpg';
-import weathericon from './weathericon.png';
 import humidity from './humidity.png';
 import windsped from './windspeed.png';
 import clearicon from './clearicon.png';
-import snowicon from './snowicon.png';
 import rainicon from './rainicon.png';
 import cloudicon from './cloudicon.png';
 import drizzleicon from './drizzileicon.png';
