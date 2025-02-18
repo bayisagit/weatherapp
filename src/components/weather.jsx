@@ -48,7 +48,8 @@ const weather = () => {
             temperature:Math.floor(data.main.temp),
             location:data.name,
             icon:icon
-        })
+        });
+      inpuref.current.value="";
     }
     catch (error){
          setweatherdata(false);
@@ -56,7 +57,7 @@ const weather = () => {
     }
   }
   useEffect(()=>{
-    search("addis ababa");
+    search("");
   },[])
   return (
     <div className='font-serif place-self-center rounded-4xl flex flex-col items-center bg-[#2f4680] w-full max-w-[400px] sm:max-w-[500px] md:max-w-[600px] lg:max-w-[700] mx-auto p-5'>
